@@ -333,8 +333,8 @@ describe('Transactions', () => {
       assert(transfers.length === 5)
     })
 
-    it('Amount: 55555555555555', () => {
-      const amount = 95555555555555
+    it('Amount: 95555555555500', () => {
+      const amount = 95555555555500
       const transfers = cnUtil.createTransactionOutputs('ED4cr5x8eav2UwcFNSTcvDNcXHrvf8prE4Fe3HEysJwmSkR29NHQvA4Zbh3rkGEFm9jGfdVUn6wW6fUzgTKhZ4uqHXDi4uF', amount)
       assert(transfers.length === 20)
     })
