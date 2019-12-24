@@ -327,14 +327,14 @@ describe('Transactions', () => {
       assert(transfers.length === 3)
     })
 
-    it('Amount: 500000000000', () => {
-      const amount = 500000000000
+    it('Amount: 50000000000000', () => {
+      const amount = 50000000000000
       const transfers = cnUtil.createTransactionOutputs('ED4cr5x8eav2UwcFNSTcvDNcXHrvf8prE4Fe3HEysJwmSkR29NHQvA4Zbh3rkGEFm9jGfdVUn6wW6fUzgTKhZ4uqHXDi4uF', amount)
       assert(transfers.length === 5)
     })
 
-    it('Amount: 555555555555', () => {
-      const amount = 955555555555
+    it('Amount: 55555555555555', () => {
+      const amount = 95555555555555
       const transfers = cnUtil.createTransactionOutputs('ED4cr5x8eav2UwcFNSTcvDNcXHrvf8prE4Fe3HEysJwmSkR29NHQvA4Zbh3rkGEFm9jGfdVUn6wW6fUzgTKhZ4uqHXDi4uF', amount)
       assert(transfers.length === 20)
     })
