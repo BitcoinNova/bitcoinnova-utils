@@ -2,6 +2,8 @@
 
 # Bitcoin Nova Javascript Utilities
 
+[![NPM](https://nodei.co/npm/bitcoinnova-utils.png?downloads=true&stars=true)](https://nodei.co/npm/bitcoinnova-utils/)
+
 #### Master Build Status
 
 #### Development Build Status

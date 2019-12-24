@@ -1,0 +1,58 @@
+{
+  "name": "bitcoinnova-utils",
+  "version": "1.0.15",
+  "description": "A Node.js collection of utilities useful for Bitcoin Nova Developers",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "config.json",
+    "index.d.ts",
+    "dist/BitcoinNovaUtils.js",
+    "lib/*"
+  ],
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "standard && mocha tests/tests.js",
+    "build-docs": "jsdoc -c jsdoc.json",
+    "prepare": "webpack"
+  },
+  "keywords": [
+    "BitcoinNova",
+    "Utilities"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BitcoinNova/bitcoinnova-utils.git"
+  },
+  "author": "BitcoinNova <marketing@bitcoinnova.org>",
+  "contributors": [
+    "BitcoinNovaProject <marketing@bitcoinnova.org>"
+  ],
+  "license": "GPL-3.0",
+  "optionalDependencies": {
+    "bitcoinnova-crypto": "^3.1.1"
+  },
+  "dependencies": {
+    "crc": "^3.8.0",
+    "get-random-values": "^1.2.0",
+    "numeral": "^2.0.6",
+    "secure-random-string": "^1.1.0",
+    "varint": "^5.0.0"
+  },
+  "standard": {
+    "ignore": [
+      "lib/bitcoinnova-crypto/bitcoinnova-crypto.js",
+      "lib/bitcoinnova-crypto/bitcoinnova-crypto-wasm.js",
+      "dist/*",
+      "docs/*"
+    ]
+  },
+  "devDependencies": {
+    "mocha": "^6.2.2",
+    "standard": "^12.0.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
