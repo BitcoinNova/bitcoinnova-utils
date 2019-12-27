@@ -6,7 +6,7 @@
 
 #### Master Build Status
 
-#### Development Build Status
+[![Build Status](https://travis-ci.org/BitcoinNova/bitcoinnova-utils.svg?branch=master)](https://travis-ci.org/BitcoinNova/bitcoinnova-utils)
 
 This package contains code that wraps [bitcoinnova-crypto](https://github.com/BitcoinNova/bitcoinnova-crypto) primitives into an easier to use interface. This includes the ability to easily discover funds for a wallet, create transactions, sign transactions (ring signatures), create new wallets, verify addresses, and handful of other useful methods. These methods can then be wrapped into a Javascript-based wallet such as [bitcoinnova-wallet-backend-js](https://github.com/BitcoinNova/bitcoinnova-wallet-backend-js).
 
